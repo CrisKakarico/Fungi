@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #54392A;
+  color: #fff;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #54392A;
+  border-bottom: 14px solid #54392A;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  /*padding-top: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;*/
+  text-decoration: none;
+  padding: 14px;
+}
+
+nav a:hover {
+  background-color: darkseagreen;
+  color: #54392A;
+  border-radius: 10px;
+}
+
+main {
+  margin: 30px;
+}
+
+h1, h2 {
+  color: #54392A;
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  border: 7px solid #54392A;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #54392A;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 14px;
+  position: absolute;
+  justify-content: center;
+  width: 89.35%;
+  margin-top: 1.75%;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #54392A;
+  text-align: center;
+}
+
+li {
+  color: #54392A;
+}
+
+#fungi {
+  color: #fff;
+}
+
+#mushroom {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  border: 7px;
+  border-radius: 10px;
+}
+
+#bg {
+  background-size: cover;
+  display: flex;
+  transform: translateY(-80px);
+  max-width: 130%;
+  width: 130%;
+  height: 130%;
+  margin: -20%;
+  position: fixed;
+  z-index: -10;
+  filter: blur(5px);
+}
